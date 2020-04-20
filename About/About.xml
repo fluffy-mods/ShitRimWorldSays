@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Shit RimWorld Says</name>
+	<author>Fluffy</author>
+	<supportedVersions>
+		<li>1.1</li>
+	</supportedVersions>
+	<description>adds quotes from /r/ShitRimWorldSays to RimWorld loading screens</description>
+	<url>https://steamcommunity.com/id/Fluffy/myworkshopfiles/?appid=294100</url>
+</ModMetaData>
