@@ -2,8 +2,8 @@
     "name": "Shit RimWorld Says",
     "version": {
         "major": 0,
-        "minor": 0,
-        "build": 1
+        "minor": 1,
+        "build": 2
     },
     "visibility": 0,
     "packageId": "fluffy.shitrimworldsays",
