@@ -2,19 +2,27 @@
     "name": "Shit Rimworld Says",
     "version": {
         "alpha": 1,
-        "major": 1,
+        "major": 2,
         "minor": 0,
-        "build": 5
+        "build": 6
     },
     "visibility": 0,
     "git_repo": "ShitRimWorldSays",
     "git_user": "fluffy-mods",
     "contributors": {},
-    "changenote": "",
+    "changenote": "2020-04-22 :: Fluffy :: remove extra files'",
     "tags": [
         "1.1"
     ],
-    "changenotes": [],
+    "changenotes": [
+        {
+            "repo": "ShitRimWorldSays",
+            "hash": "'tformat:6f555c1f79eae7e2991230207dc8efb950715b78",
+            "date": "2020-04-22",
+            "author": "Fluffy",
+            "message": "remove extra files'"
+        }
+    ],
     "packageId": "fluffy.shitrimworldsays",
     "publishedfileid": "2069706266"
 }
