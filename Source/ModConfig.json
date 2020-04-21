@@ -4,7 +4,7 @@
         "alpha": 1,
         "major": 1,
         "minor": 0,
-        "build": 4
+        "build": 5
     },
     "visibility": 0,
     "git_repo": "ShitRimWorldSays",
@@ -15,5 +15,6 @@
         "1.1"
     ],
     "changenotes": [],
-    "packageId": "fluffy.shitrimworldsays"
+    "packageId": "fluffy.shitrimworldsays",
+    "publishedfileid": "2069706266"
 }
