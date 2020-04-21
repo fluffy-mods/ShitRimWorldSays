@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LanguageData>
+    <Fluffy.ShitRimWorldSays.ShitRimWorldSays>/r/ShitRimworldSays</Fluffy.ShitRimWorldSays.ShitRimWorldSays>
+    <Fluffy.ShitRimWorldSays.ReplaceGameTips>Replace vanilla gameplay tips</Fluffy.ShitRimWorldSays.ReplaceGameTips>
+    <Fluffy.ShitRimWorldSays.ReplaceGameTips.Tooltip>If toggled, only reddit quotes will be shown in loading screens (default). If disabled, both gameplay tips and reddit quotes will be shown at random.</Fluffy.ShitRimWorldSays.ReplaceGameTips.Tooltip>
+    <Fluffy.ShitRimWorldSays.MinimumKarma>Minimum post karma</Fluffy.ShitRimWorldSays.MinimumKarma>
+    <Fluffy.ShitRimWorldSays.MinimumKarma.Tooltip>Only posts with at least this much karma will be shown. Provides some semblance of quality control.</Fluffy.ShitRimWorldSays.MinimumKarma.Tooltip>
+</LanguageData>

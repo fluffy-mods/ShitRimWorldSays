@@ -1,10 +1,16 @@
 {
-  "name": "Shit RimWorld Says",
-  "version": {
-    "major": 0,
-    "minor": 0,
-    "build": 0
-  },
-  "visibility": 0,
-  "packageId": "fluffy.shit rimworld says"
+    "name": "Shit RimWorld Says",
+    "version": {
+        "major": 0,
+        "minor": 0,
+        "build": 1
+    },
+    "visibility": 0,
+    "packageId": "fluffy.shitrimworldsays",
+    "changenote": "",
+    "changenotes": [],
+    "contributors": {},
+    "tags": [
+        "1.1"
+    ]
 }

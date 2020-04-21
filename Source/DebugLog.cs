@@ -1,16 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Diagnostics;
 
 namespace ShitRimWorldSays
 {
 	static class Log
 	{
-		[System.Diagnostics.Conditional("DEBUG")]
-		public static void Message(string msg )
-		{
-			Verse.Log.Message( $"ShitRimWorldSays :: {msg}");
+        public static void Message( string msg )
+        {
+
+            Verse.Log.Message( $"ShitRimWorldSays :: {msg}" );
 		}
+
+		[Conditional("DEBUG")]
+		public static void Debug(string msg )
+        {
+            Message( msg );
+        }
 	}
 }

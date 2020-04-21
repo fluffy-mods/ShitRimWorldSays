@@ -1,0 +1,31 @@
+﻿
+using UnityEngine;
+using Verse;
+
+namespace ShitRimWorldSays
+{
+    public class Settings: ModSettings
+    {
+        public TipDatabase database = new TipDatabase(); // overridden when scribe loads settings
+        public bool replaceGameTips = true;
+        public int minimumKarma = 150;
+        private string _minimumKarmaBuffer;
+
+        public override void ExposeData()
+        {
+            base.ExposeData();
+
+            Scribe_Deep.Look( ref database, "database" );
+            Scribe_Values.Look( ref replaceGameTips, "replaceGameTips", false );
+        }
+
+        public void DoWindowContents( Rect canvas )
+        {
+            var options = new Listing_Standard();
+            options.Begin( canvas );
+            options.CheckboxLabeled( I18n.ReplaceGameTips, ref replaceGameTips, I18n.ReplaceGameTipsTooltip );
+            options.TextFieldNumericLabeled( I18n.MinimumKarma, ref minimumKarma, ref _minimumKarmaBuffer, 0, 999 );
+            options.End();
+        }
+    }
+}
