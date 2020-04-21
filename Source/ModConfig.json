@@ -1,16 +1,19 @@
 {
-    "name": "Shit RimWorld Says",
+    "name": "Shit Rimworld Says",
     "version": {
-        "major": 0,
-        "minor": 1,
-        "build": 2
+        "alpha": 1,
+        "major": 1,
+        "minor": 0,
+        "build": 4
     },
     "visibility": 0,
-    "packageId": "fluffy.shitrimworldsays",
-    "changenote": "",
-    "changenotes": [],
+    "git_repo": "ShitRimWorldSays",
+    "git_user": "fluffy-mods",
     "contributors": {},
+    "changenote": "",
     "tags": [
         "1.1"
-    ]
+    ],
+    "changenotes": [],
+    "packageId": "fluffy.shitrimworldsays"
 }
