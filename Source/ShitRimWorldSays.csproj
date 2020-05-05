@@ -80,6 +80,7 @@
     <Compile Include="I18n.cs" />
     <Compile Include="Patches\GameplayTipWindow_ResetTipTimer.cs" />
     <Compile Include="Patches\ModSummaryWindow_DrawWindow.cs" />
+    <Compile Include="Patches\UIRoot_Entry_UIRootOnGUI.cs" />
     <Compile Include="Tips\Tip.cs" />
     <Compile Include="Patches\GameplayTipWindow_DrawWindow.cs" />
     <Compile Include="Settings.cs" />

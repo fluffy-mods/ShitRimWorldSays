@@ -5,4 +5,6 @@
     <Fluffy.ShitRimWorldSays.ReplaceGameTips.Tooltip>If toggled, only reddit quotes will be shown in loading screens (default). If disabled, both gameplay tips and reddit quotes will be shown at random.</Fluffy.ShitRimWorldSays.ReplaceGameTips.Tooltip>
     <Fluffy.ShitRimWorldSays.MinimumKarma>Minimum post karma</Fluffy.ShitRimWorldSays.MinimumKarma>
     <Fluffy.ShitRimWorldSays.MinimumKarma.Tooltip>Only posts with at least this much karma will be shown. Provides some semblance of quality control.</Fluffy.ShitRimWorldSays.MinimumKarma.Tooltip>
+    <Fluffy.ShitRimWorldSays.TipsOnMainMenu>Quotes on main menu</Fluffy.ShitRimWorldSays.TipsOnMainMenu>
+    <Fluffy.ShitRimWorldSays.TipsOnMainMenu.Tooltip>Should quotes and tips be shown on the main menu?</Fluffy.ShitRimWorldSays.TipsOnMainMenu.Tooltip>
 </LanguageData>

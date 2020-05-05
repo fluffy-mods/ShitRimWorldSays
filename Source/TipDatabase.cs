@@ -3,6 +3,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
@@ -52,12 +53,15 @@ namespace ShitRimWorldSays
             _vanilla = null;
             _quotes = _quotes.Where( q => q.score >= ShitRimWorldSays.Settings.minimumKarma ).ToHashSet();
             _currentTipIndex = 0;
-            Notify_ResetTimer();
+            Notify_ResetTimer( true );
         }
 
-        public static void Notify_ResetTimer()
+        public static void Notify_ResetTimer( bool force = false )
         {
-            _lastUpdateTime = -1;
+            // TODO: find less brute force solution
+            if ( force || LongEventHandler.AnyEventNowOrWaiting) 
+                _lastUpdateTime = -1;
+//            Log.Debug( $"Reset timer: {StackTraceUtility.ExtractStackTrace()}"  );
         }
 
         public static Tip CurrentTip

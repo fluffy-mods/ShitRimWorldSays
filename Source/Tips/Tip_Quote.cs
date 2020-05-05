@@ -87,11 +87,15 @@ namespace ShitRimWorldSays
                 Application.OpenURL( $"https://reddit.com/{permalink}" );
             Text.Anchor = TextAnchor.UpperLeft;
             GUI.color = Color.white;
+
+            Rect refreshRect = new Rect( rect.xMax - 24 - 4, rect.yMin + 4, 24, 24 );
+            if ( Mouse.IsOver( rect ) && Widgets.ButtonImage( refreshRect, Resources.Refresh ) )
+                TipDatabase.Notify_ResetTimer( true );
         }
 
         public override float Height( int width )
         {
-            return Text.CalcHeight( body, width ) + 30 + Window.StandardMargin * 2;
+            return Text.CalcHeight( body, width - 2 * margin.x ) + 30 + Window.StandardMargin * 2;
         }
     }
 }

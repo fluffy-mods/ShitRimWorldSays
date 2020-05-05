@@ -4,25 +4,17 @@
         "alpha": 1,
         "major": 2,
         "minor": 1,
-        "build": 7
+        "build": 24
     },
     "visibility": 0,
     "git_repo": "ShitRimWorldSays",
     "git_user": "fluffy-mods",
     "contributors": {},
-    "changenote": "2020-05-05 14:05 :: Fluffy :: update preview image",
+    "changenote": "",
     "tags": [
         "1.1"
     ],
-    "changenotes": [
-        {
-            "repo": "ShitRimWorldSays",
-            "hash": "9c45366e3482e33bfbb7e0f4b5583ba7bc27c988",
-            "date": "2020-05-05 14:05",
-            "author": "Fluffy",
-            "message": "update preview image"
-        }
-    ],
+    "changenotes": [],
     "packageId": "fluffy.shitrimworldsays",
     "publishedfileid": "2069706266"
 }

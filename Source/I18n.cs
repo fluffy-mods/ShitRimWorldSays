@@ -1,6 +1,7 @@
 ﻿// I18n.cs
 // Copyright Karel Kroeze, -2020
 
+using UnityEngine;
 using Verse;
 
 namespace ShitRimWorldSays
@@ -21,5 +22,13 @@ namespace ShitRimWorldSays
         public static string ReplaceGameTips        = Translate( "ReplaceGameTips" );
         public static string ReplaceGameTipsTooltip = Translate( "ReplaceGameTips.Tooltip" );
         public static string MinimumKarma           = Translate( "MinimumKarma" );
+        public static string TipsOnMainMenu         = Translate( "TipsOnMainMenu" );
+        public static string TipsOnMainMenuTooltip  = Translate( "TipsOnMainMenu.Tooltip" );
+    }
+
+    [StaticConstructorOnStartup]
+    public static class Resources
+    {
+        public static Texture2D Refresh = ContentFinder<Texture2D>.Get( "UI/Icons/refresh" );
     }
 }
