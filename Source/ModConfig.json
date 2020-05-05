@@ -3,18 +3,26 @@
     "version": {
         "alpha": 1,
         "major": 2,
-        "minor": 1,
-        "build": 24
+        "minor": 2,
+        "build": 25
     },
     "visibility": 0,
     "git_repo": "ShitRimWorldSays",
     "git_user": "fluffy-mods",
     "contributors": {},
-    "changenote": "",
+    "changenote": "2020-05-05 22:05 :: Fluffy :: add tips on main menu",
     "tags": [
         "1.1"
     ],
-    "changenotes": [],
+    "changenotes": [
+        {
+            "repo": "ShitRimWorldSays",
+            "hash": "1837b5eb7d6ec8f48f00585ade3ed6617eb6a3f6",
+            "date": "2020-05-05 22:05",
+            "author": "Fluffy",
+            "message": "add tips on main menu"
+        }
+    ],
     "packageId": "fluffy.shitrimworldsays",
     "publishedfileid": "2069706266"
 }
