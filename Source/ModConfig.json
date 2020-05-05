@@ -3,24 +3,24 @@
     "version": {
         "alpha": 1,
         "major": 2,
-        "minor": 0,
-        "build": 6
+        "minor": 1,
+        "build": 7
     },
     "visibility": 0,
     "git_repo": "ShitRimWorldSays",
     "git_user": "fluffy-mods",
     "contributors": {},
-    "changenote": "2020-04-22 :: Fluffy :: remove extra files'",
+    "changenote": "2020-05-05 14:05 :: Fluffy :: update preview image",
     "tags": [
         "1.1"
     ],
     "changenotes": [
         {
             "repo": "ShitRimWorldSays",
-            "hash": "'tformat:6f555c1f79eae7e2991230207dc8efb950715b78",
-            "date": "2020-04-22",
+            "hash": "9c45366e3482e33bfbb7e0f4b5583ba7bc27c988",
+            "date": "2020-05-05 14:05",
             "author": "Fluffy",
-            "message": "remove extra files'"
+            "message": "update preview image"
         }
     ],
     "packageId": "fluffy.shitrimworldsays",
