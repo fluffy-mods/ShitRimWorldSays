@@ -10,19 +10,11 @@
     "git_repo": "ShitRimWorldSays",
     "git_user": "fluffy-mods",
     "contributors": {},
-    "changenote": "2020-05-05 22:05 :: Fluffy :: add tips on main menu",
+    "changenote": "",
     "tags": [
         "1.1"
     ],
-    "changenotes": [
-        {
-            "repo": "ShitRimWorldSays",
-            "hash": "1837b5eb7d6ec8f48f00585ade3ed6617eb6a3f6",
-            "date": "2020-05-05 22:05",
-            "author": "Fluffy",
-            "message": "add tips on main menu"
-        }
-    ],
+    "changenotes": [],
     "packageId": "fluffy.shitrimworldsays",
     "publishedfileid": "2069706266"
 }
