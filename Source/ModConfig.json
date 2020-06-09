@@ -14,7 +14,15 @@
     "tags": [
         "1.1"
     ],
-    "changenotes": [],
+    "changenotes": [
+        {
+            "repo": "ShitRimWorldSays",
+            "hash": "3e5ef5f78f089266651de3c0487cb574957b98fa",
+            "date": "2020-06-02 00:06",
+            "author": "Fluffy",
+            "message": "Release 2.2.25 [nolog]"
+        }
+    ],
     "packageId": "fluffy.shitrimworldsays",
     "publishedfileid": "2069706266"
 }
