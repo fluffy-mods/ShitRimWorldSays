@@ -4,7 +4,7 @@
         "alpha": 1,
         "major": 2,
         "minor": 3,
-        "build": 26
+        "build": 28
     },
     "visibility": 0,
     "git_repo": "ShitRimWorldSays",
@@ -15,22 +15,7 @@
         "1.1",
         "1.2"
     ],
-    "changenotes": [
-        {
-            "repo": "ShitRimWorldSays",
-            "hash": "d63a2b2b26dafce6e6dc46544476cd3dfe9e2932",
-            "date": "2020-06-09 22:06",
-            "author": "Fluffy",
-            "message": "Release 2.2.25 [nolog]"
-        },
-        {
-            "repo": "ShitRimWorldSays",
-            "hash": "3e5ef5f78f089266651de3c0487cb574957b98fa",
-            "date": "2020-06-02 00:06",
-            "author": "Fluffy",
-            "message": "Release 2.2.25 [nolog]"
-        }
-    ],
+    "changenotes": [],
     "packageId": "fluffy.shitrimworldsays",
     "publishedfileid": "2069706266"
 }
