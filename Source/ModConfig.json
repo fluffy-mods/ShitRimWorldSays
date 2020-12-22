@@ -4,7 +4,7 @@
         "alpha": 1,
         "major": 2,
         "minor": 3,
-        "build": 28
+        "build": 29
     },
     "visibility": 0,
     "git_repo": "ShitRimWorldSays",
@@ -15,7 +15,15 @@
         "1.1",
         "1.2"
     ],
-    "changenotes": [],
+    "changenotes": [
+        {
+            "repo": "ShitRimWorldSays",
+            "hash": "292d3c89b2996074a52f7aee31cf6f97ffc2856a",
+            "date": "2020-12-08 19:12",
+            "author": "Fluffy",
+            "message": "Release 2.3.28 [nolog]"
+        }
+    ],
     "packageId": "fluffy.shitrimworldsays",
     "publishedfileid": "2069706266"
 }

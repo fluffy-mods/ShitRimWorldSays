@@ -45,4 +45,4 @@ Become a supporter and show your appreciation by buying me a coffee (or contribu
 
 
 ![Version](https://banners.karel-kroeze.nl/title/Version.png)  
-This is version 2.3.28, for RimWorld 1.2.2753.
+This is version 2.3.29, for RimWorld 1.2.2753.
