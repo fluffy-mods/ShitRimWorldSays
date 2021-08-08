@@ -1,4 +1,4 @@
-﻿// TipDatabase.cs
+// TipDatabase.cs
 // Copyright Karel Kroeze, 2020-2020
 
 using System;
