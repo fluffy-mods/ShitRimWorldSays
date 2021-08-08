@@ -1,20 +1,16 @@
-﻿// I18n.cs
+// I18n.cs
 // Copyright Karel Kroeze, -2020
 
 using UnityEngine;
 using Verse;
 
-namespace ShitRimWorldSays
-{
-    public class I18n
-    {
-        private static string Translate( string key, params NamedArgument[] args )
-        {
-            return Key( key ).Translate( args ).Resolve();
+namespace ShitRimWorldSays {
+    public class I18n {
+        private static string Translate(string key, params NamedArgument[] args) {
+            return Key(key).Translate(args).Resolve();
         }
 
-        private static string Key( string key )
-        {
+        private static string Key(string key) {
             return $"Fluffy.ShitRimWorldSays.{key}";
         }
 
@@ -27,8 +23,7 @@ namespace ShitRimWorldSays
     }
 
     [StaticConstructorOnStartup]
-    public static class Resources
-    {
+    public static class Resources {
         public static Texture2D Refresh = ContentFinder<Texture2D>.Get( "UI/Icons/refresh" );
     }
 }
