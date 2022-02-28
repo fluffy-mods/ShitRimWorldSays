@@ -6,7 +6,7 @@
     "version": {
         "major": 3,
         "minor": 1,
-        "build": 57
+        "build": 58
     },
     "author": {
         "name": "Fluffy",
@@ -28,6 +28,15 @@
         }
     ],
     "changelog": [
+        {
+            "date": "2022-02-26T16:08:51.000Z",
+            "message": "Update description",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "d867509ea7b85003d59ffa6491e47907cc29a092"
+        },
         {
             "date": "2021-08-08T23:20:02.000Z",
             "message": "rediscover over the course of two days that we need a special unity build of the JSON.NET package",
