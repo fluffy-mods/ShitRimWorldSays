@@ -5,8 +5,8 @@
     "url": "https://github.com/fluffy-mods/ShitRimWorldSays",
     "version": {
         "major": 3,
-        "minor": 1,
-        "build": 58
+        "minor": 2,
+        "build": 59
     },
     "author": {
         "name": "Fluffy",
@@ -28,6 +28,15 @@
         }
     ],
     "changelog": [
+        {
+            "date": "2022-10-14T23:08:04.000Z",
+            "message": "minor project structure refactor",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "ecc38f482877f30dd6a6570ac08cb6112dc812b6"
+        },
         {
             "date": "2022-02-26T16:08:51.000Z",
             "message": "Update description",
